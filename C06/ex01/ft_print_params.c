@@ -6,7 +6,7 @@
 /*   By: mzangaro <mzangaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/24 21:12:29 by mzangaro          #+#    #+#             */
-/*   Updated: 2024/07/25 11:30:26 by mzangaro         ###   ########.fr       */
+/*   Updated: 2024/07/25 16:07:58 by mzangaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_putstr(char *str)
 	}
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	int	i;
 

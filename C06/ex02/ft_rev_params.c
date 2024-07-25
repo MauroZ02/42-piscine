@@ -6,7 +6,7 @@
 /*   By: mzangaro <mzangaro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/24 21:30:37 by mzangaro          #+#    #+#             */
-/*   Updated: 2024/07/24 21:33:14 by mzangaro         ###   ########.fr       */
+/*   Updated: 2024/07/25 16:08:31 by mzangaro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,12 @@ void	ft_putstr(char *str)
 	}
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	int	i;
 
 	i = argc - 1;
-	while(i > 0)
+	while (i > 0)
 	{
 		ft_putstr(argv[i]);
 		write(1, "\n", 1);
